@@ -1,39 +1,24 @@
 # Password Generator
 
-[![Try Online](https://img.shields.io/badge/Try%20Online-risetop.top-blue)](https://risetop.top/password-generator.html)
+Generate strong, random, secure passwords with customizable length and character options.
 
-Generate strong, random, secure passwords
+## Features
 
-## ✨ Features
+- Customizable password length (4-128 characters)
+- Include/exclude uppercase, lowercase, numbers, and special characters
+- One-click copy to clipboard
+- Password strength indicator
+- Generate multiple passwords at once
+- No data sent to server — runs entirely in your browser
 
-- **Free & Online** — No installation required, works entirely in your browser
-- **Fast & Lightweight** — Instant results with minimal page load
-- **Clean Interface** — Simple, intuitive design focused on usability
-- **No Data Stored** — All processing happens locally on your device
-- **Mobile Friendly** — Works on desktop, tablet, and mobile
+## Try It Online
 
-## 🚀 How to Use
+👉 **[Password Generator](https://risetop.top/password-generator.html)** — Free online tool, no sign-up required.
 
-1. Visit [risetop.top/password-generator.html](https://risetop.top/password-generator.html)
-2. Enter your input in the provided field
-3. Get instant results
+## How It Works
 
-## 🛠️ Use Cases
+The tool uses the Web Crypto API (`crypto.getRandomValues`) to generate cryptographically secure random passwords. All generation happens client-side in your browser.
 
-- **Developers** — Quick utility during development and debugging
-- **Designers** — Color picking, placeholder text, image conversion
-- **Security** — Password generation, hash creation, JWT inspection
-- **Content Creators** — Markdown editing, text comparison
-- **Students & Learners** — Understanding encoding, hashing, and data formats
+## License
 
-## 🔗 Online Tool
-
-👉 **Use now:** [https://risetop.top/password-generator.html](https://risetop.top/password-generator.html)
-
-## 📦 About
-
-Generate strong, random, secure passwords. Built with performance and simplicity in mind.
-
----
-
-**Keywords:** password,generator, online tool, free tool, web utility, developer tool, browser tool
+MIT License — use freely in your own projects.
